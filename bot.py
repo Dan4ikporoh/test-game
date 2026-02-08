@@ -8,7 +8,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 # Укажите токен вашего бота, полученный от @BotFather
 API_TOKEN = '8562700528:AAEai5V4VQgLWi94l_BPksoZBP0oO3bl2DQ' 
 # URL, на котором будет запущено ваше веб-приложение (фронтенд)
-WEB_APP_URL = 'https://github.com/Dan4ikporoh/test-game.git' # Пример для хостинга
+WEB_APP_URL = 'https://dan4ikporoh.github.io/test-game/' # Пример для хостинга
 
 # --- Инициализация ---
 bot = Bot(token=API_TOKEN)
@@ -42,4 +42,5 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
 
